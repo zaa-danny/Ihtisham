@@ -1,0 +1,17 @@
+board_name: DICT_4X4_50
+row_count: 5
+col_count: 5
+square_len: 0.01
+marker_len: 0.0075
+
+input_size: [320, 240]
+bs_train: 32
+bs_train_rn: 64
+bs_val: 64
+bs_val_rn: 128
+num_workers: 2
+
+train_labels: 'C:/Users/Danny/deepcharuco/deepcharuco/src/captions_train2017.json'
+val_labels: 'C:/Users/Danny/deepcharuco/deepcharuco/src/captions_val2017.json'
+train_images: 'C:/Users/Danny/deepcharuco/deepcharuco/src/train2017/'
+val_images: 'C:/Users/Danny/deepcharuco/deepcharuco/src/val2017/'
